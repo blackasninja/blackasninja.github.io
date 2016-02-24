@@ -4,10 +4,10 @@
         $name = $_POST['name'];
         $email = $_POST['email'];
         $message = $_POST['sendmessage'];
-        $formcontent="From: $name \n Message: $message";
+        $formcontent="From: $name<$email> \n Message: $message";
         $to = 'ash_winp@hotmail.com';
         $subject = "Contact Form";
-        $mailheader = "From: $email \r\n";
+        $mailheader = "From: contact@ashwin.co.nz \r\n";
         $send_message=mail($to, $subject, $formcontent, $mailheader);
 
         if($send_message){

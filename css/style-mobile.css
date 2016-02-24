@@ -24,7 +24,8 @@
 
 			.box.style2 {
 				padding: 1.5em 1.25em 1.5em 1.25em;
-				background-color: rgba(255,255,255,0.9);
+                color: #ffffff;
+                background: #39454b;
 			}
 
 	/* Main */
