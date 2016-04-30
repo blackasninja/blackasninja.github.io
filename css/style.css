@@ -601,7 +601,10 @@
 /* Powered by Font Awesome by Dave Gandy | http://fontawesome.io                 */
 /* Licensed under the SIL OFL 1.1 (font), MIT (CSS)                              */
 /*********************************************************************************/
-
+	.contact-icon:hover{		
+		cursor: pointer;
+		font-size: 30px;
+	}
 	.fa {
 		text-decoration: none;
 	}
